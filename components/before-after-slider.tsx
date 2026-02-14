@@ -86,14 +86,13 @@ export default function BeforeAfterSlider() {
           {/* Before image (clipped) */}
           <div
             className="absolute inset-0 overflow-hidden"
-            style={{ width: `${sliderPosition}%` }}
+            style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
           >
             <Image
               src="/images/home-exterior.jpg"
               alt="Before: current home exterior"
               fill
               className="object-cover"
-              style={{ width: `${containerRef.current?.offsetWidth || 400}px`, maxWidth: "none" }}
             />
           </div>
 
