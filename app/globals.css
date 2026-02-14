@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 220 20% 6%;
+    --foreground: 210 20% 95%;
+    --card: 220 18% 10%;
+    --card-foreground: 210 20% 95%;
+    --popover: 220 18% 10%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 24 100% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 16%;
+    --secondary-foreground: 210 20% 90%;
+    --muted: 220 14% 14%;
+    --muted-foreground: 215 15% 55%;
+    --accent: 145 60% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 14% 18%;
+    --input: 220 14% 18%;
+    --ring: 24 100% 55%;
+    --chart-1: 24 100% 55%;
+    --chart-2: 145 60% 45%;
+    --chart-3: 35 90% 55%;
+    --chart-4: 0 75% 55%;
+    --chart-5: 210 50% 50%;
+    --radius: 0.75rem;
+    --sidebar-background: 220 18% 8%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 24 100% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 14% 14%;
+    --sidebar-accent-foreground: 210 20% 90%;
+    --sidebar-border: 220 14% 18%;
+    --sidebar-ring: 24 100% 55%;
+
+    --fire-orange: 24 100% 55%;
+    --fire-red: 0 75% 55%;
+    --safe-green: 145 60% 45%;
+    --warning-amber: 35 90% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-card/80 backdrop-blur-xl border border-border/50;
+  }
+  .glass-strong {
+    @apply bg-card/90 backdrop-blur-2xl border border-border/60;
+  }
+  .text-fire {
+    color: hsl(var(--fire-orange));
+  }
+  .text-danger {
+    color: hsl(var(--fire-red));
+  }
+  .text-safe {
+    color: hsl(var(--safe-green));
+  }
+  .text-warning {
+    color: hsl(var(--warning-amber));
+  }
+  .bg-fire {
+    background-color: hsl(var(--fire-orange));
+  }
+  .bg-danger {
+    background-color: hsl(var(--fire-red));
+  }
+  .bg-safe {
+    background-color: hsl(var(--safe-green));
+  }
+  .bg-warning {
+    background-color: hsl(var(--warning-amber));
+  }
+  .border-fire {
+    border-color: hsl(var(--fire-orange));
+  }
+  .border-danger {
+    border-color: hsl(var(--fire-red));
+  }
+  .border-safe {
+    border-color: hsl(var(--safe-green));
+  }
+  .ring-fire {
+    --tw-ring-color: hsl(var(--fire-orange));
+  }
+}
