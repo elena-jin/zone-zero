@@ -1,3 +1,9 @@
+import AppShell from "@/components/app-shell"
+
 export default function Page() {
-  return null
+  return (
+    <div className="h-dvh w-full">
+      <AppShell />
+    </div>
+  )
 }
