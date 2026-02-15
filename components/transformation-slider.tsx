@@ -8,7 +8,7 @@ import type { MitigationStyle, InspectionReport } from "@/components/app-shell"
 const styleAfterImages: Record<MitigationStyle, string> = {
   ModernRock: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/house-Fv2byh9tw5mihB3DMBuUZkGVaqxMQ7.png",
   Xeriscape: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/xeriscape-sxoNpSkDEIjwsm58iO5MZjBhgmJbFk.jpg",
-  ZenStone: "https://imgur.com/a/zFkz5Qb",
+  ZenStone: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/zen-M0LmRCdyRD3Bbp8JWZlcE3bWfoK7at.png",
   WildfireHardened: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/native_grass-Yf2sFQBllooEH5OIXOqgNeMUSXSyZG.jpg",
 }
 
