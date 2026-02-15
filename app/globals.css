@@ -4,6 +4,24 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+@keyframes scanning {
+  0% { top: 0; }
+  100% { top: 100%; }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+::-webkit-scrollbar-thumb {
+  background: hsla(0, 75%, 55%, 0.3);
+  border-radius: 10px;
 }
 
 @layer utilities {
@@ -14,13 +32,13 @@ body {
 
 @layer base {
   :root {
-    --background: 220 20% 6%;
+    --background: 0 0% 1.2%;
     --foreground: 210 20% 95%;
     --card: 220 18% 10%;
     --card-foreground: 210 20% 95%;
     --popover: 220 18% 10%;
     --popover-foreground: 210 20% 95%;
-    --primary: 24 100% 55%;
+    --primary: 0 85% 50%;
     --primary-foreground: 0 0% 100%;
     --secondary: 220 14% 16%;
     --secondary-foreground: 210 20% 90%;
@@ -32,8 +50,8 @@ body {
     --destructive-foreground: 0 0% 100%;
     --border: 220 14% 18%;
     --input: 220 14% 18%;
-    --ring: 24 100% 55%;
-    --chart-1: 24 100% 55%;
+    --ring: 0 85% 50%;
+    --chart-1: 0 85% 50%;
     --chart-2: 145 60% 45%;
     --chart-3: 35 90% 55%;
     --chart-4: 0 75% 55%;
@@ -41,14 +59,14 @@ body {
     --radius: 0.75rem;
     --sidebar-background: 220 18% 8%;
     --sidebar-foreground: 210 20% 90%;
-    --sidebar-primary: 24 100% 55%;
+    --sidebar-primary: 0 85% 50%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 220 14% 14%;
     --sidebar-accent-foreground: 210 20% 90%;
     --sidebar-border: 220 14% 18%;
-    --sidebar-ring: 24 100% 55%;
+    --sidebar-ring: 0 85% 50%;
 
-    --fire-orange: 24 100% 55%;
+    --fire-orange: 0 85% 50%;
     --fire-red: 0 75% 55%;
     --safe-green: 145 60% 45%;
     --warning-amber: 35 90% 55%;
@@ -70,6 +88,9 @@ body {
   }
   .glass-strong {
     @apply bg-card/90 backdrop-blur-2xl border border-border/60;
+  }
+  .animate-scan {
+    animation: scanning 4s linear infinite;
   }
   .text-fire {
     color: hsl(var(--fire-orange));
