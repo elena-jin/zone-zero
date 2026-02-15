@@ -10,31 +10,31 @@ const styles: {
   description: string
   image: string
 }[] = [
-  {
-    value: "ModernRock",
-    label: "Architectural Rock",
-    description: "Sleek, fire-proof mineral buffers",
-    image: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=600&q=80",
-  },
-  {
-    value: "Xeriscape",
-    label: "Native Xeriscape",
-    description: "Water-wise, high-ignition resistance",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/xeriscape-sxoNpSkDEIjwsm58iO5MZjBhgmJbFk.jpg",
-  },
-  {
-    value: "ZenStone",
-    label: "Zen Perimeter",
-    description: "Balanced, non-combustible gravels",
-    image: "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=600&q=80",
-  },
-  {
-    value: "WildfireHardened",
-    label: "Hardened Shield",
-    description: "Full mineral & fire-glass coverage",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/native_grass-Yf2sFQBllooEH5OIXOqgNeMUSXSyZG.jpg",
-  },
-]
+    {
+      value: "ModernRock",
+      label: "Architectural Rock",
+      description: "Sleek, fire-proof mineral buffers",
+      image: "images/arch_rock.png",
+    },
+    {
+      value: "Xeriscape",
+      label: "Native Xeriscape",
+      description: "Water-wise, high-ignition resistance",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/xeriscape-sxoNpSkDEIjwsm58iO5MZjBhgmJbFk.jpg",
+    },
+    {
+      value: "ZenStone",
+      label: "Zen Perimeter",
+      description: "Balanced, non-combustible gravels",
+      image: "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=600&q=80",
+    },
+    {
+      value: "WildfireHardened",
+      label: "Hardened Shield",
+      description: "Full mineral & fire-glass coverage",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/native_grass-Yf2sFQBllooEH5OIXOqgNeMUSXSyZG.jpg",
+    },
+  ]
 
 export default function StyleSelection({
   selectedStyle,
