@@ -1,18 +1,18 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Space_Grotesk } from 'next/font/google'
+import { Plus_Jakarta_Sans, Space_Grotesk } from 'next/font/google'
 
 import './globals.css'
 
-const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const _jakarta = Plus_Jakarta_Sans({ subsets: ['latin'], variable: '--font-inter' })
 const _spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' })
 
 export const metadata: Metadata = {
-  title: 'ZoneZero AI - Fire-Safe Home Design',
-  description: 'Visualize fire-safe Zone 0 designs for your home while preserving your aesthetic preferences.',
+  title: 'ZONEZERO | LE-100 Advanced Fire Analysis',
+  description: 'California LE-100 Compliant AI Inspection Engine. Visualize fire-safe Zone 0 designs for your property.',
 }
 
 export const viewport: Viewport = {
-  themeColor: '#0d1117',
+  themeColor: '#030303',
   width: 'device-width',
   initialScale: 1,
   maximumScale: 1,
@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${_inter.variable} ${_spaceGrotesk.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${_jakarta.variable} ${_spaceGrotesk.variable}`} suppressHydrationWarning>
       <body className="font-sans antialiased overflow-x-hidden">{children}</body>
     </html>
   )
