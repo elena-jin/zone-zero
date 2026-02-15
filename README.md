@@ -14,7 +14,7 @@ We realized: **what if we could make Zone 0 beautiful?** Better yet - what if we
 
 ### AR Risk Scanner
 
-- Point your phone camera at your house foundation
+- Uses Google Maps to see your house foundation
 - AI identifies fire risks in real-time: wood mulch, wooden fences, dry vegetation
 - AR overlays highlight risks in red and show beautiful alternatives in green
 - Swipe through design options with instant before/after visualization
@@ -26,16 +26,9 @@ We realized: **what if we could make Zone 0 beautiful?** Better yet - what if we
 - **Predictive matching:** "Homeowners like you chose decomposed granite with 73% implementation rate"
 - See real before/after photos from "style twin" homes who already upgraded
 
-### Neighborhood Resilience Network
-
-- Compare your home's fire safety score vs. nearby neighborhoods
-- Gamified leaderboard: "Your street ranks #12 of 34 - 5 more implementations to reach #8"
-- Social proof: See which neighbors already upgraded their Zone 0
-- Community challenges create viral adoption
-
 ### Insurance Integration Dashboard
 
-- Upload AR scan for automatic verification
+- Upload scan for automatic verification
 - Insurance companies deploy to policyholders for premium discounts
 - Track implementations, ROI, and claims prevented
 - B2B SaaS model: insurers pay $10/scan, enterprise analytics included
@@ -86,39 +79,11 @@ Fire safety materials (gravel, metal, stone) can look industrial. We solved this
 - Finding "style twin" homes that prove beautiful + safe is possible
 - Educating users on fire-resistant plants that maintain aesthetics
 
-### Behavioral Prediction Accuracy
-
-Predicting human behavior is hard. We tackled this by:
-
-- Collecting real implementation data from 250+ homeowners (via public records)
-- A/B testing different style quiz formats to maximize prediction accuracy
-- Validating our model showed 73% implementation rate vs. 12% industry baseline
-- Incorporating social proof to boost confidence in predictions
-
-### Mobile AR Performance
-
-Getting smooth AR overlays on various phones was challenging:
-
-- Optimized asset loading to reduce latency below 100ms
-- Implemented progressive enhancement for different device capabilities
-- Built fallback UI for devices without AR support
-- Tested on 10+ different phone models to ensure compatibility
-
-### Insurance Partnership Validation
-
-We needed to prove the business model before judges would believe it:
-
-- Interviewed 3 insurance underwriters about verification needs
-- Analyzed premium discount structures (10-20% for Zone 0 compliance)
-- Built ROI calculator showing $14.2x return for insurers
-- Drafted LOI templates and got interest from 2 regional insurers
-
 ## Accomplishments that we're proud of
 
-- **Behavioral prediction breakthrough** - 73% implementation rate vs. 12% industry baseline by matching homeowners with designs they'll actually love
 - **Real-world validation** - CalFIRE Chief Jake Hess confirmed aesthetic barrier is the #1 implementation blocker; our solution directly addresses it
 - **Clear path to market** - Insurance companies want to deploy this. State mandate creates urgency. Revenue model validated.
-- **Technical execution** - Built functional AR scanning, behavioral AI, neighborhood gamification, and insurance dashboard in 36 hours
+- **Technical execution** - Built functional scanning, behavioral AI, neighborhood gamification, and insurance dashboard in 36 hours
 - **Meaningful impact potential** - If deployed to 1M homes at our 73% implementation rate, we prevent 650K homes from igniting = **$3.5B in prevented wildfire losses**
 - **Elegant user experience** - Made complex fire science accessible through intuitive AR and personalized recommendations
 
