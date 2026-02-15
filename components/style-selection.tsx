@@ -14,7 +14,7 @@ const styles: {
     value: "ModernRock",
     label: "Architectural Rock",
     description: "Sleek, fire-proof mineral buffers",
-    image: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=600&q=80",
+    image: "images/arch_rock.png",
   },
   {
     value: "Xeriscape",
